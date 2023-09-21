@@ -1,7 +1,7 @@
-# Bakend Technical Test
+# Backend Technical Test
 
 Proyecto Catálogo basado en Django - Django Rest Framework.
-Acontinuación presento algunos elementos utilizados para el desarrollo de la aplicación
+A continuación presento algunos elementos utilizados para el desarrollo de la aplicación
 
 Login y autenticación: 
 * django-rest-framework simple-jwt
@@ -15,9 +15,9 @@ Notificaciones y/o envio de correos:
 Contenedorización:
 * Dockerfile y docker-compose
 
-Documentacion:
+Documentación:
 * Documentación mediante postman https://documenter.getpostman.com/view/16708282/2s9YCBt9Dg
-* Documentación mediante rest_framework.documentation.include_docs_urls. (/api/v1/docs/). Esta documentación es una herramienta para la depuraración.
+* Documentación mediante rest_framework.documentation.include_docs_urls. (/api/v1/docs/). Ésta documentación es una herramienta para la depuraración.
 
 # Proceso de ejecución de la aplicación con docker: 
 - docker-compose run web python manage.py createsuperuser
