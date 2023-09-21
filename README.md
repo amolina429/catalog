@@ -13,11 +13,11 @@ Notificaciones y/o envio de correos:
 * smtplib, email, email.MIME.
 
 Contenedorización:
-* Dockerfile y docker-compose
+* docker-compose
 
-Documentación:
-* Documentación mediante postman https://documenter.getpostman.com/view/16708282/2s9YCBt9Dg
-* Documentación mediante rest_framework.documentation.include_docs_urls. (/api/v1/docs/). Ésta documentación es una herramienta para la depuraración.
+Documentacion:
+* Documentación realizada en postman https://documenter.getpostman.com/view/16708282/2s9YCBt9Dg
+* Documentación realizada con rest_framework.documentation.include_docs_urls. (/api/v1/docs/). Esta documentación es una herramienta para la depuraración.
 
 # Proceso de ejecución de la aplicación con docker: 
 - docker-compose run web python manage.py createsuperuser
