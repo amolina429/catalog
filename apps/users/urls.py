@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import CreateRollView
+from .views import CrearUsuarioView
 
 urlpatterns = [
-    path('users/rol/create/', CreateRollView.as_view(), name='create_rol'),
+    path('create/', CrearUsuarioView.as_view(), name='create_user'),
 ]
