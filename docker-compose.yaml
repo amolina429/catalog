@@ -11,9 +11,15 @@ services:
     environment:
       - DB_HOST=db
       - DB_PORT=5432
-      - DB_NAME=test
+      - DB_NAME=postgres
       - DB_USER=postgres
       - DB_PASSWORD=postgres
+      - ALLOWED_HOSTS=127.0.0.1, localhost
+      - DEBUG=False
+      - EMAIL_USER=''
+      - EMAIL_PASSWORD=''
+      - EMAIL_SMTP='smtp.gmail.com'
+      - EMAIL_PORT=465
   db:
     image: postgres:13
     environment:

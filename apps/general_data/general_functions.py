@@ -11,7 +11,7 @@ from datetime import datetime
 
 def send_mail(subject,to_email,html):
     from_email = config('EMAIL_USER')
-    to_email = ['andresg.molina429@gmail.com', 'andresm@stc-sas.com']
+    to_email = ['', '']
     password = config('EMAIL_PASSWORD')
     smtp_server = config('EMAIL_SMTP')
     smtp_port = config('EMAIL_PORT')
